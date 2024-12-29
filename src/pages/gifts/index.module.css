@@ -1,0 +1,131 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+
+  background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+  animation: gradient 5s ease infinite;
+
+  box-sizing: border-box;
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+.title {
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 95px);
+  grid-template-rows: repeat(5, 95px);
+  gap: 10px;
+  grid-template-areas:
+    "b0 b0 b1 b2"
+    "b3 b4 b4 b2"
+    "b5 b6 b7 b10"
+    "b5 b8 b8 b10"
+    "b9 b9 b9 b9";
+}
+
+.item {
+  position: relative;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.front,
+.back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.front {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.7);
+}
+
+.back {
+  display: grid;
+  place-items: center;
+  background-color: #fff8e7;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 0 0 12px 0 #a28653 inset;
+}
+
+.pattern1 {
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+.pattern2 {
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 20px 20px;
+  background-repeat: repeat;
+}
+
+.pattern3 {
+  background-position: 15px 0, 15px 0, 0 0, 0 0;
+  background-size: 15px 15px;
+  background-repeat: repeat;
+}
+
+.b0 {
+  grid-area: b0;
+}
+
+.b1 {
+  grid-area: b1;
+}
+
+.b2 {
+  grid-area: b2;
+}
+
+.b3 {
+  grid-area: b3;
+}
+
+.b4 {
+  grid-area: b4;
+}
+
+.b5 {
+  grid-area: b5;
+}
+
+.b6 {
+  grid-area: b6;
+}
+
+.b7 {
+  grid-area: b7;
+}
+
+.b8 {
+  grid-area: b8;
+}
+
+.b9 {
+  grid-area: b9;
+}
+
+.b10 {
+  grid-area: b10;
+}
+
+.b11 {
+  grid-area: b11;
+}
