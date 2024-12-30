@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import styles from "./index.module.css";
 import cn from "classnames";
 import { motion } from "motion/react";
-// change colors to gift wrapper colors
 
 const pattern1 = (
   bg: string,
@@ -33,66 +32,66 @@ const pattern4 = (bg: string, fg: string) =>
 
 const list = [
   {
-    name: "one",
+    name: "Message",
     backgroundColor: "#FB607F",
     backgroundImage: pattern1("#FB607F", "#FFD700"),
     classNames: [styles.pattern1],
     direction: "translateX",
   },
   {
-    name: "two",
+    name: "Van",
     backgroundColor: "#FB607F",
     backgroundImage: pattern2("#1E90FF", "#AFDBF5"),
     classNames: [styles.pattern2],
     direction: "translateY",
   },
   {
-    name: "three",
+    name: "Skull",
     backgroundImage: pattern4("#E6E6FA", "#CCCCFF"),
     direction: "translateX",
   },
   {
-    name: "four",
+    name: "Donut",
     backgroundImage: pattern2("#F1DDCF", "#FF91AF"),
     classNames: [styles.pattern2],
     direction: "translateY",
   },
   {
-    name: "five",
+    name: "Butterfly",
     backgroundImage: pattern1("#F1DDCF", "#FF91AF"),
     classNames: [styles.pattern1],
     direction: "translateX",
   },
   {
-    name: "six",
+    name: "Popcorn",
     backgroundImage: pattern3("#F0F8FF", "#45B1E8"),
     classNames: [styles.pattern3],
     direction: "translateY",
   },
   {
-    name: "seven",
+    name: "F1 Car",
     backgroundImage: pattern4("#9F8170", "#EFDECD"),
     direction: "translateX",
   },
   {
-    name: "eight",
+    name: "Skater",
     backgroundImage: pattern3("#FFDAE9", "#FBAED2"),
     classNames: [styles.pattern3],
     direction: "translateY",
   },
   {
-    name: "nine",
+    name: "Milk Shake",
     backgroundImage: pattern2("#E9EDF5", "#6082B6"),
     classNames: [styles.pattern2],
     direction: "translateX",
   },
   {
-    name: "ten",
+    name: "Bread",
     backgroundImage: pattern4("#856088", "#F2C1D1"),
     direction: "translateX",
   },
   {
-    name: "eleven",
+    name: "Van 2",
     backgroundImage: pattern1("#6F00FF", "#FFD700"),
     classNames: [styles.pattern1],
     direction: "translateY",
